@@ -2,7 +2,7 @@
 title: "Generating a Letter of Agency to reflect RPKI Validity"
 category: info
 
-docname: draft-martin-grow-rpki-generated-loa-00
+docname: draft-martin-grow-rpki-generated-loa-latest
 submissiontype: IETF
 v: 3
 keyword:
