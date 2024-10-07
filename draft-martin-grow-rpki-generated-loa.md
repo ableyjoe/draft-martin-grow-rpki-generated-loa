@@ -1,7 +1,7 @@
 ---
-title: Generating a Letter of Agency to reflect RPKI Validity
-abbrev: From LOAs to RPKI
+title: "Generating a Letter of Agency to reflect RPKI Validity"
 category: info
+
 docname: draft-martin-grow-rpki-generated-loa-00
 submissiontype: IETF
 v: 3
@@ -9,8 +9,14 @@ keyword:
  - RPKI
  - LOA
  - routing
+venue:
+  group: grow
+  type: Working Group
+  mail: grow@ietf.org
+  github: ableyjoe/draft-martin-grow-rpki-generated-loa
 
 author:
+ -
     fullname: Algin Martin
     organization: Cloudflare
     email: algin@amazon.com
