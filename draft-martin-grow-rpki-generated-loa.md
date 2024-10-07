@@ -10,10 +10,10 @@ keyword:
  - LOA
  - routing
 venue:
-  group: grow
-  type: Working Group
-  mail: grow@ietf.org
-  github: ableyjoe/draft-martin-grow-rpki-generated-loa
+  group: "Global Routing Operations"
+  type: "Working Group"
+  mail: "grow@ietf.org"
+  github: "ableyjoe/draft-martin-grow-rpki-generated-loa"
 
 author:
  -
