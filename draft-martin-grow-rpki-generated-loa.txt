@@ -1,0 +1,224 @@
+
+
+
+
+Network Working Group                                          A. Martin
+Internet-Draft                                                  J. Abley
+Intended status: Informational                                Cloudflare
+Expires: 10 April 2025                                    7 October 2024
+
+
+         Generating a Letter of Agency to reflect RPKI Validity
+                draft-martin-grow-rpki-generated-loa-00
+
+Abstract
+
+   Letters of Agency (LOA) are commonly used to authorise network
+   providers to accept and propagate routing information received from
+   others.  The Resource Public Key Infrastructure (RPKI) can be used to
+   perform a similar function, with the advantage that RPKI-signed
+   objects can be validated automatically and in a more robust manner
+   than manual processing of documents.  However, some network operators
+   have established processes that expect and require LOAs to be
+   exchanged, despite their limitations.  This document proposes a
+   format for constructing an LOA in the case where RPKI validation is
+   available, with the goal of enabling a transition to a future where
+   LOAs are no longer needed.
+
+About This Document
+
+   This note is to be removed before publishing as an RFC.
+
+   Status information for this document may be found at
+   https://datatracker.ietf.org/doc/draft-martin-grow-rpki-generated-
+   loa/.
+
+   Discussion of this document takes place on the grow Working Group
+   mailing list (mailto:grow@ietf.org), which is archived at
+   https://mailarchive.ietf.org/arch/browse/grow/.  Subscribe at
+   https://www.ietf.org/mailman/listinfo/grow/.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/ableyjoe/draft-martin-grow-rpki-generated-loa.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+
+
+Martin & Abley            Expires 10 April 2025                 [Page 1]
+
+Internet-Draft  Generating a Letter of Agency to reflect    October 2024
+
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 10 April 2025.
+
+Copyright Notice
+
+   Copyright (c) 2024 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+Table of Contents
+
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   2.  The Trouble with LOAs . . . . . . . . . . . . . . . . . . . .   3
+   3.  RPKI-Based Authorisation of Prefix Origination  . . . . . . .   3
+   4.  Constructing a LOA based on RPKI Validation . . . . . . . . .   3
+   5.  Security Considerations . . . . . . . . . . . . . . . . . . .   3
+   6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
+   Appendix A.  Acknowledgments  . . . . . . . . . . . . . . . . . .   4
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   4
+
+1.  Introduction
+
+   Some organisations use IP addresses that have been assigned or
+   allocated for their use and that are independent of any particular
+   network service provider.  For such address space to be reachable on
+   the global Internet, routing information must be proagated from the
+   originating autonomous system and must be received by other adjacent
+   or further distant autonomous systems in order for traffic directed
+   at those addresses to be sent in the right direction.
+
+
+
+
+
+
+
+
+
+
+Martin & Abley            Expires 10 April 2025                 [Page 2]
+
+Internet-Draft  Generating a Letter of Agency to reflect    October 2024
+
+
+   Originating routes on behalf of customers has long been a common
+   function of network operators.  At the time of writing it is also
+   common for other types of provider, e.g. those that provide services
+   such as content distribution or cloud compute.  Such service
+   providers sometimes use the phrase "Bring Your Own IP" (BYOIP) to
+   describe the practice of using customer-supplied addresses to make
+   services available on behalf of those customers.
+
+   It is best current practice for network operators not to accept
+   routing information from adjacent networks indiscriminately, but
+   rather to filter routing information to ensure that Internet traffic
+   is not routed inappropriately, e.g. as a result of an operational
+   accident or a deliberate attempt to interfere.  Network operators are
+   expected to accept routing information selectively, filtering and
+   allowing only route advertisements that they have reason to believe
+   are legitimate.  In the case of routing information that is being
+   received directly from a customer network, or is being originated by
+   the network provider on the customer's behalf, such legitimacy has
+   often been determined by the customer issuing a Letter of Agency, a
+   document that provides authorisation for one operator to act on
+   behalf of another.  Such letters are commonly exchanged in the form
+   of electronic documents exchanged over insecure mechanisms like
+   e-mail with no integrity protection or strong authentication.
+
+   The RPKI provides an opportunity to provide equivalent authorisation
+   to a Letter of Agency in a form that is independently verifiable and
+   cryptographically strong.  However, many network operators have
+   established workflows that include a requirement for a Letter of
+   Agency to be received in order to authorise the propagation of a
+   route on the Internet.
+
+   This document describes a template for constructing a Letter of
+   Agency in the case where RPKI verification of a request to exchange
+   routing informationi is possible.  We propose that network operators
+   accept such documents, with corresponding crypytographic validation
+   of associated signed objects, in place of a conventional LOA.
+
+2.  The Trouble with LOAs
+
+3.  RPKI-Based Authorisation of Prefix Origination
+
+4.  Constructing a LOA based on RPKI Validation
+
+5.  Security Considerations
+
+   Say things here.
+
+
+
+
+
+Martin & Abley            Expires 10 April 2025                 [Page 3]
+
+Internet-Draft  Generating a Letter of Agency to reflect    October 2024
+
+
+6.  IANA Considerations
+
+   This document has no IANA actions.
+
+Appendix A.  Acknowledgments
+
+   These fine and wonderful people helped with this document.
+
+Authors' Addresses
+
+   Algin Martin
+   Cloudflare
+   Email: algin@amazon.com
+
+
+   Joe Abley
+   Cloudflare
+   Email: jabley@cloudflare.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Martin & Abley            Expires 10 April 2025                 [Page 4]
