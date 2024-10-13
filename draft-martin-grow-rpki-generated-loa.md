@@ -74,26 +74,25 @@ believe are legitimate. In the case of routing information that is
 being received directly from a customer network, or is being
 originated by the network provider on the customer's behalf, such
 legitimacy has often been determined by the customer issuing a
-Letter of Agency, a document that provides authorisation for one
-operator to act on behalf of another. Such letters are commonly
-exchanged in the form of electronic documents exchanged over insecure
-mechanisms like e-mail with no integrity protection or strong
-authentication.
+Letter of Agency (LOA) {loa}, a document that provides authorisation
+for one operator to act on behalf of another. Such letters are
+commonly exchanged in the form of electronic documents exchanged
+over insecure mechanisms like e-mail with no integrity protection
+or strong authentication. The limitations of this practice are
+discussed briefly in {security}.
 
 The RPKI provides an opportunity to provide equivalent authorisation
 to a Letter of Agency in a form that is independently verifiable
 and cryptographically strong. However, many network operators have
-established workflows that include a requirement for a Letter of
-Agency {loa} to be received in order to authorise the propagation
-of a route on the Internet.
+established workflows that include LOAs, and at the time of writing
+many customers are not practised in the management of RPKI-signed
+objects.
 
 This document describes a template for constructing a Letter of
 Agency in the case where RPKI verification of a request to exchange
 routing informationi is possible. We propose that network operators
 accept such documents, with corresponding crypytographic validation
 of associated signed objects, in place of a conventional LOA.
-
-# The Trouble with LOAs
 
 # RPKI-Based Authorisation of Prefix Origination
 
