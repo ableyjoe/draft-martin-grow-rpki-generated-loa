@@ -541,7 +541,7 @@ Authors' Addresses
 
    Algin Martin
    Cloudflare
-   Email: algin@amazon.com
+   Email: algin@cloudflare.com
 
 
    Joe Abley
