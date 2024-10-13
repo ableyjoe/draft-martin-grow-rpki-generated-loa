@@ -5,11 +5,11 @@
 Network Working Group                                          A. Martin
 Internet-Draft                                                  J. Abley
 Intended status: Informational                                Cloudflare
-Expires: 10 April 2025                                    7 October 2024
+Expires: 16 April 2025                                   13 October 2024
 
 
          Generating a Letter of Agency to reflect RPKI Validity
-                draft-martin-grow-rpki-generated-loa-00
+              draft-martin-grow-rpki-generated-loa-latest
 
 Abstract
 
@@ -33,10 +33,10 @@ About This Document
    https://datatracker.ietf.org/doc/draft-martin-grow-rpki-generated-
    loa/.
 
-   Discussion of this document takes place on the grow Working Group
-   mailing list (mailto:grow@ietf.org), which is archived at
-   https://mailarchive.ietf.org/arch/browse/grow/.  Subscribe at
-   https://www.ietf.org/mailman/listinfo/grow/.
+   Discussion of this document takes place on the Global Routing
+   Operations Working Group mailing list (mailto:grow@ietf.org), which
+   is archived at https://mailarchive.ietf.org/arch/browse/grow/.
+   Subscribe at https://www.ietf.org/mailman/listinfo/grow/.
 
    Source for this draft and an issue tracker can be found at
    https://github.com/ableyjoe/draft-martin-grow-rpki-generated-loa.
@@ -53,7 +53,7 @@ Status of This Memo
 
 
 
-Martin & Abley            Expires 10 April 2025                 [Page 1]
+Martin & Abley            Expires 16 April 2025                 [Page 1]
 
 Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
@@ -63,7 +63,7 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 10 April 2025.
+   This Internet-Draft will expire on 16 April 2025.
 
 Copyright Notice
 
@@ -85,9 +85,10 @@ Table of Contents
    2.  The Trouble with LOAs . . . . . . . . . . . . . . . . . . . .   3
    3.  RPKI-Based Authorisation of Prefix Origination  . . . . . . .   3
    4.  Constructing a LOA based on RPKI Validation . . . . . . . . .   3
-   5.  Security Considerations . . . . . . . . . . . . . . . . . . .   3
+   5.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
    6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
    Appendix A.  Acknowledgments  . . . . . . . . . . . . . . . . . .   4
+   Appendix B.  Letter of Agency . . . . . . . . . . . . . . . . . .   4
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   4
 
 1.  Introduction
@@ -108,8 +109,7 @@ Table of Contents
 
 
 
-
-Martin & Abley            Expires 10 April 2025                 [Page 2]
+Martin & Abley            Expires 16 April 2025                 [Page 2]
 
 Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
@@ -142,8 +142,8 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
    to a Letter of Agency in a form that is independently verifiable and
    cryptographically strong.  However, many network operators have
    established workflows that include a requirement for a Letter of
-   Agency to be received in order to authorise the propagation of a
-   route on the Internet.
+   Agency {loa} to be received in order to authorise the propagation of
+   a route on the Internet.
 
    This document describes a template for constructing a Letter of
    Agency in the case where RPKI verification of a request to exchange
@@ -157,18 +157,35 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
 4.  Constructing a LOA based on RPKI Validation
 
-5.  Security Considerations
-
-   Say things here.
 
 
 
 
 
-Martin & Abley            Expires 10 April 2025                 [Page 3]
+
+
+
+Martin & Abley            Expires 16 April 2025                 [Page 3]
 
 Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
+
+5.  Security Considerations
+
+   LOAs do not provide strong authorisation because it is not
+   straightforward to authenticate their contents.  Anecdotally, LOAs
+   are often accepted by unqualified staff without systematic or
+   thorough review.  It is not clear that the exchange of LOAs provides
+   useful legal protection to any party in the event that a related
+   subsequent complaint was made.
+
+   The form of LOA described in this document does not in itself provide
+   stronger authorisation; however, the contents do provide a means by
+   which the recipient of a LOA can obtain a measure of authentication
+   which is cryptographically strong.  The recipient of a LOA of the
+   type described in this document who reads and follows the directions
+   within is able to obtain more confidence about the authorised use of
+   IP addresses described within it than with a conventional LOA.
 
 6.  IANA Considerations
 
@@ -178,11 +195,35 @@ Appendix A.  Acknowledgments
 
    These fine and wonderful people helped with this document.
 
+Appendix B.  Letter of Agency
+
+   A Letter of Agency (LOA) is a document used in telecommunications to
+   authorise a provider to act on behalf of a customer.  LOAs were
+   originally specified for use in the United States and their use is
+   specified in the Code of Federal Regulations Title 47 / Chapter 1 /
+   Subchapter B / Part 64 / Subpart K, "S 64.1130 Letter of agency form
+   and content".
+
+   LOAs were subsequently adopted more informally for use between
+   Internet providers in order to document and authorise the use of IP
+   addresses administered by a customer to be made reachable by an
+   Internet Service Provider.  The acronym LOA is sometimes taken to
+   mean "Letter of Authorisation" despite its original meaning.
+
 Authors' Addresses
 
    Algin Martin
    Cloudflare
    Email: algin@amazon.com
+
+
+
+
+
+
+Martin & Abley            Expires 16 April 2025                 [Page 4]
+
+Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
 
    Joe Abley
@@ -221,4 +262,19 @@ Authors' Addresses
 
 
 
-Martin & Abley            Expires 10 April 2025                 [Page 4]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Martin & Abley            Expires 16 April 2025                 [Page 5]
