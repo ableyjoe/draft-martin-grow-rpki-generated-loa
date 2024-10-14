@@ -262,7 +262,12 @@ This document has no IANA actions.
 
 # Acknowledgments
 
-These fine and wonderful people helped with this document.
+Dirk-Jan van Helmond helped with the authors' tremendously poor
+Dutch in {nederlands}. Note that any residual crimes against language
+are the fault of the authors alone.
+
+These fine and wonderful other people also helped with this document
+(your name goes here).
 
 # Letter of Agency {#loa}
 
@@ -324,7 +329,7 @@ signed RPKI objects, as illustrated by the following:
   https://rpki-validator.ripe.net/ui/199.212.91.0%2F24/9327
 ~~~
 
-## Customer directs provider to originate a BYOIP prefix in Dutch
+## Customer directs provider to originate a BYOIP prefix in Dutch {#nederlands}
 
 INTRODUCTIE
 
