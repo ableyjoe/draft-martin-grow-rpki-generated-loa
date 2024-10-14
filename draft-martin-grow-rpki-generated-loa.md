@@ -260,15 +260,6 @@ This document has no IANA actions.
 
 --- back
 
-# Acknowledgments
-
-Dirk-Jan van Helmond helped with the authors' tremendously poor
-Dutch in {{nederlands}}. Note that any residual crimes against language
-are the fault of the authors alone.
-
-These fine and wonderful other people also helped with this document
-(your name goes here).
-
 # Letter of Agency {#loa}
 
 A Letter of Agency (LOA) is a document used in telecommunications
@@ -382,4 +373,14 @@ middels:
   https://rpki-validator.ripe.net/ui/199.212.92.0%2F24/13335
   https://rpki-validator.ripe.net/ui/199.212.93.0%2F24/13335
 ~~~
+
+# Acknowledgments
+{:numbered="false"}
+
+Dirk-Jan van Helmond helped with the authors' tremendously poor
+Dutch in {{nederlands}}. Note that any residual crimes against language
+are the fault of the authors alone.
+  
+These fine and wonderful other people also helped with this document
+(your name goes here).
 
