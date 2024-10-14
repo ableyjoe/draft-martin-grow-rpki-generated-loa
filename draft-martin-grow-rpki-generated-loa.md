@@ -326,20 +326,20 @@ signed RPKI objects, as illustrated by the following:
 
 ## Customer directs provider to originate a BYOIP prefix in Dutch
 
-INVOERING
+INTRODUCTIE
 
 This is an RPKI LOA that confirms to (this document).
 
-Dit is een RPKI LOA die bevestigt aan (this document). Een deel van
-de tekst in dit document moet in het Engels geschreven zijn. De
-rest van dit document is in het Nederlands geschreven en is bedoeld
-voor een publiek dat Nederlands spreekt.
+Dit is een RPKI LOA die voldoet aan (dit document). Dit document
+is in het Nederlands geschreven en is bedoeld voor een publiek dat
+Nederlands spreekt.  Het is van belang dat kernzaken van dit document
+ook in het Engels geschreven zijn.
 
 HERKOMST EN GELDIGHEID
 
-Dit document is door Cloudflare namens een klant om 2024-10-13 15:00
-UTC geproceerd. Voor meer informatie over dit document kunt u contact
-opnemen met Cloudflare via:
+Dit document is in opdracht van een klant door Cloudflare geproduceerd
+om 2024-10-13 15:00 UTC. Voor meer informatie over dit document
+kunt u contact opnemen met Cloudflare via:
 
 ~~~
   Cloudflare, Inc
@@ -359,19 +359,19 @@ should perform their own validation of these objects in order to
 confirm the details provided in this RPKI LOA.
 
 De volgende route-oorsprongen zijn geautoriseerd door de publicatie
-van RPKI-ondertekende ROA en/of ASPA-objecten. Vertrouwende partijen
+van RPKI-ondertekende ROA en/of ASPA-objecten. Afhankelijke partijen
 moeten hun eigen validatie van deze objecten uitvoeren om de details
 in deze RPKI LOA te bevestigen.
 
 ~~~
-  VOORVOEGSEL             OORSPRONG AS
+  PREFIX                  OORSPRONG AS
   199.212.92.0/24         13335
   199.212.93.0/24         13335
 ~~~
 
-Route-oorsprongautorisatie kan worden geverifieerd door te verwijzen
+Route-oorsprong autorisatie kan worden geverifieerd middels verwijzing
 naar gepubliceerde ondertekende RPKI-objecten, zoals geïllustreerd
-door het volgende:
+middels:
 
 ~~~
   https://rpki-validator.ripe.net/ui/199.212.92.0%2F24/13335
