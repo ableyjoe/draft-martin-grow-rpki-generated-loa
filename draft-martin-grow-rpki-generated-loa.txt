@@ -9,7 +9,7 @@ Expires: 17 April 2025                                   14 October 2024
 
 
          Generating a Letter of Agency to reflect RPKI Validity
-                  draft-martin-grow-rpki-generated-loa
+              draft-martin-grow-rpki-generated-loa-latest
 
 Abstract
 
@@ -30,7 +30,8 @@ About This Document
    This note is to be removed before publishing as an RFC.
 
    Status information for this document may be found at
-   https://datatracker.ietf.org/doc/draft-martin-grow-rpki-generated/.
+   https://datatracker.ietf.org/doc/draft-martin-grow-rpki-generated-
+   loa/.
 
    Discussion of this document takes place on the Global Routing
    Operations Working Group mailing list (mailto:grow@ietf.org), which
@@ -49,7 +50,6 @@ Status of This Memo
    Task Force (IETF).  Note that other groups may also distribute
    working documents as Internet-Drafts.  The list of current Internet-
    Drafts is at https://datatracker.ietf.org/drafts/current/.
-
 
 
 
