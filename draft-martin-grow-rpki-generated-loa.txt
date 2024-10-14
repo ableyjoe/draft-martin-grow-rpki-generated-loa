@@ -51,13 +51,6 @@ Status of This Memo
    working documents as Internet-Drafts.  The list of current Internet-
    Drafts is at https://datatracker.ietf.org/drafts/current/.
 
-
-
-Martin & Abley            Expires 17 April 2025                 [Page 1]
-
-Internet-Draft  Generating a Letter of Agency to reflect    October 2024
-
-
    Internet-Drafts are draft documents valid for a maximum of six months
    and may be updated, replaced, or obsoleted by other documents at any
    time.  It is inappropriate to use Internet-Drafts as reference
@@ -81,38 +74,28 @@ Copyright Notice
 
 Table of Contents
 
-   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
-   2.  Terminology . . . . . . . . . . . . . . . . . . . . . . . . .   3
-   3.  RPKI Authorisation of Routing Data  . . . . . . . . . . . . .   4
-     3.1.  Route Origin Authorization (ROA) Objects  . . . . . . . .   4
-     3.2.  Autonomous System Proider Authorization (ASPA) Objects  .   4
-   4.  Bring Your Own IP (BYOIP) Considerations  . . . . . . . . . .   5
-   5.  Constructing a LOA based on RPKI Validation . . . . . . . . .   5
-     5.1.  Overview  . . . . . . . . . . . . . . . . . . . . . . . .   5
-     5.2.  Introduction  . . . . . . . . . . . . . . . . . . . . . .   6
-     5.3.  Provenance and Validity . . . . . . . . . . . . . . . . .   6
-     5.4.  Route Origination and Service Provider Authorisation  . .   6
-   6.  Security Considerations . . . . . . . . . . . . . . . . . . .   7
-   7.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   7
-   8.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   7
-     8.1.  Normative References  . . . . . . . . . . . . . . . . . .   7
-     8.2.  Informative References  . . . . . . . . . . . . . . . . .   8
-   Appendix A.  Acknowledgments  . . . . . . . . . . . . . . . . . .   8
-   Appendix B.  Letter of Agency . . . . . . . . . . . . . . . . . .   8
-   Appendix C.  Example RPKI LOA . . . . . . . . . . . . . . . . . .   9
-     C.1.  Customer originates a prefix to a transit provider  . . .   9
-     C.2.  Customer directs provider to originate a BYOIP prefix in
-           Dutch . . . . . . . . . . . . . . . . . . . . . . . . . .   9
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  10
-
-
-
-
-
-Martin & Abley            Expires 17 April 2025                 [Page 2]
-
-Internet-Draft  Generating a Letter of Agency to reflect    October 2024
-
+   1.  Introduction
+   2.  Terminology
+   3.  RPKI Authorisation of Routing Data
+     3.1.  Route Origin Authorization (ROA) Objects
+     3.2.  Autonomous System Proider Authorization (ASPA) Objects
+   4.  Bring Your Own IP (BYOIP) Considerations
+   5.  Constructing a LOA based on RPKI Validation
+     5.1.  Overview
+     5.2.  Introduction
+     5.3.  Provenance and Validity
+     5.4.  Route Origination and Service Provider Authorisation
+   6.  Security Considerations
+   7.  IANA Considerations
+   8.  References
+     8.1.  Normative References
+     8.2.  Informative References
+   Appendix A.  Letter of Agency
+   Appendix B.  Example RPKI LOA
+     B.1.  Customer originates a prefix to provider
+     B.2.  Provider originates customer BYOIP prefix in Dutch
+   Acknowledgments
+   Authors' Addresses
 
 1.  Introduction
 
@@ -139,7 +122,7 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
    behalf of another.  Such letters are commonly exchanged in the form
    of electronic documents exchanged over insecure mechanisms like
    e-mail with no integrity protection or strong authentication.  For
-   more discussion about LOAs, see Appendix B.  Some limitations of this
+   more discussion about LOAs, see Appendix A.  Some limitations of this
    practice are discussed briefly in Section 6.
 
    The RPKI provides an opportunity to provide equivalent authorisation
@@ -162,13 +145,6 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
    "OPTIONAL" in this document are to be interpreted as described in
    BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
    capitals, as shown here.
-
-
-
-Martin & Abley            Expires 17 April 2025                 [Page 3]
-
-Internet-Draft  Generating a Letter of Agency to reflect    October 2024
-
 
 3.  RPKI Authorisation of Routing Data
 
@@ -211,20 +187,6 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
    In the examples above, a signed ASPA might authorise prefix A to
    exhibit the AS_PATH "... P C".
-
-
-
-
-
-
-
-
-
-
-Martin & Abley            Expires 17 April 2025                 [Page 4]
-
-Internet-Draft  Generating a Letter of Agency to reflect    October 2024
-
 
 4.  Bring Your Own IP (BYOIP) Considerations
 
@@ -272,15 +234,6 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
    SHOULD use RPKI-signed objects and perform signature validation
    directly and SHOULD NOT attempt to process the contents of an RPKI
    LOA.
-
-
-
-
-
-Martin & Abley            Expires 17 April 2025                 [Page 5]
-
-Internet-Draft  Generating a Letter of Agency to reflect    October 2024
-
 
    This document specifies an ordering and a list of details that MUST
    be included in a LOA for it to be consistent with this specification,
@@ -331,13 +284,6 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
    All prefixes that are the subject of the RPKI LOA MUST be included.
 
-
-
-Martin & Abley            Expires 17 April 2025                 [Page 6]
-
-Internet-Draft  Generating a Letter of Agency to reflect    October 2024
-
-
    Each prefix MUST be clearly annotated with the origin ASN and also
    the provider ASN in the case where the origin AS is not the same as
    the provider AS.
@@ -386,14 +332,6 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
               DOI 10.17487/RFC2119, March 1997,
               <https://www.rfc-editor.org/rfc/rfc2119>.
 
-
-
-
-Martin & Abley            Expires 17 April 2025                 [Page 7]
-
-Internet-Draft  Generating a Letter of Agency to reflect    October 2024
-
-
    [RFC4271]  Rekhter, Y., Ed., Li, T., Ed., and S. Hares, Ed., "A
               Border Gateway Protocol 4 (BGP-4)", RFC 4271,
               DOI 10.17487/RFC4271, January 2006,
@@ -415,16 +353,7 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
               DOI 10.17487/RFC9323, November 2022,
               <https://www.rfc-editor.org/rfc/rfc9323>.
 
-Appendix A.  Acknowledgments
-
-   Dirk-Jan van Helmond helped with the authors' tremendously poor Dutch
-   in Appendix C.2.  Note that any residual crimes against language are
-   the fault of the authors alone.
-
-   These fine and wonderful other people also helped with this document
-   (your name goes here).
-
-Appendix B.  Letter of Agency
+Appendix A.  Letter of Agency
 
    A Letter of Agency (LOA) is a document used in telecommunications to
    authorise a provider to act on behalf of a customer.  LOAs were
@@ -439,20 +368,9 @@ Appendix B.  Letter of Agency
    Internet Service Provider.  The acronym LOA is sometimes taken to
    mean "Letter of Authorisation" despite its original meaning.
 
+Appendix B.  Example RPKI LOA
 
-
-
-
-
-
-Martin & Abley            Expires 17 April 2025                 [Page 8]
-
-Internet-Draft  Generating a Letter of Agency to reflect    October 2024
-
-
-Appendix C.  Example RPKI LOA
-
-C.1.  Customer originates a prefix to a transit provider
+B.1.  Customer originates a prefix to provider
 
    INTRODUCTION
 
@@ -489,22 +407,11 @@ C.1.  Customer originates a prefix to a transit provider
      https://rpki-validator.ripe.net/ui/199.212.90.0%2F24/9327
      https://rpki-validator.ripe.net/ui/199.212.91.0%2F24/9327
 
-C.2.  Customer directs provider to originate a BYOIP prefix in Dutch
+B.2.  Provider originates customer BYOIP prefix in Dutch
 
    INTRODUCTIE
 
    This is an RPKI LOA that confirms to (this document).
-
-
-
-
-
-
-
-Martin & Abley            Expires 17 April 2025                 [Page 9]
-
-Internet-Draft  Generating a Letter of Agency to reflect    October 2024
-
 
    Dit is een RPKI LOA die voldoet aan (dit document).  Dit document is
    in het Nederlands geschreven en is bedoeld voor een publiek dat
@@ -548,6 +455,15 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
      https://rpki-validator.ripe.net/ui/199.212.92.0%2F24/13335
      https://rpki-validator.ripe.net/ui/199.212.93.0%2F24/13335
 
+Acknowledgments
+
+   Dirk-Jan van Helmond helped with the authors' tremendously poor Dutch
+   in Appendix B.2.  Note that any residual crimes against language are
+   the fault of the authors alone.
+
+   These fine and wonderful other people also helped with this document
+   (your name goes here).
+
 Authors' Addresses
 
    Algin Martin
@@ -555,62 +471,6 @@ Authors' Addresses
    Email: algin@cloudflare.com
 
 
-
-
-Martin & Abley            Expires 17 April 2025                [Page 10]
-
-Internet-Draft  Generating a Letter of Agency to reflect    October 2024
-
-
    Joe Abley
    Cloudflare
    Email: jabley@cloudflare.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Martin & Abley            Expires 17 April 2025                [Page 11]
