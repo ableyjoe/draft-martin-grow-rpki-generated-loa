@@ -81,10 +81,9 @@ Table of Contents
      3.2.  Autonomous System Proider Authorization (ASPA) Objects
    4.  Bring Your Own IP (BYOIP) Considerations
    5.  Constructing a LOA based on RPKI Validation
-     5.1.  Overview
-     5.2.  Introduction
-     5.3.  Provenance and Validity
-     5.4.  Route Origination and Service Provider Authorisation
+     5.1.  Introduction
+     5.2.  Provenance and Validity
+     5.3.  Route Origination and Service Provider Authorisation
    6.  Security Considerations
    7.  IANA Considerations
    8.  References
@@ -222,8 +221,6 @@ Table of Contents
 
 5.  Constructing a LOA based on RPKI Validation
 
-5.1.  Overview
-
    A LOA constructed according to this specification is referred to as
    an RPKI Letter of Agency (RPKI LOA).
 
@@ -257,7 +254,7 @@ Table of Contents
    easily be distinguished from each other.  Each section MAY include a
    section heading.
 
-5.2.  Introduction
+5.1.  Introduction
 
    This section MUST begin with the following text, included verbatim:
 
@@ -266,14 +263,14 @@ Table of Contents
    This section MAY also include other introductory information, such as
    useful external references or information about the resource holder.
 
-5.3.  Provenance and Validity
+5.2.  Provenance and Validity
 
    The name and contact details of the person or organisation issuing
    the RPKI LOA should be included.
 
    The date at which the RPKI LOA was prepared should be included.
 
-5.4.  Route Origination and Service Provider Authorisation
+5.3.  Route Origination and Service Provider Authorisation
 
    This section MUST begin with the following text, included verbatim:
 
