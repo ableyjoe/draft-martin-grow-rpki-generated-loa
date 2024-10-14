@@ -45,10 +45,6 @@ where LOAs are no longer needed.
 
 --- middle
 
-# Terminology
-
-{::boilerplate bcp14}
-
 # Introduction
 
 Some organisations use IP addresses that have been assigned or
@@ -89,6 +85,10 @@ Agency in the case where RPKI verification of a request to exchange
 routing informationi is possible. We propose that network operators
 accept such documents, with corresponding crypytographic validation
 of associated signed objects, in place of a conventional LOA.
+
+# Terminology
+
+{::boilerplate bcp14}
 
 # RPKI Authorisation of Routing Data {#authorisation}
 

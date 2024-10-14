@@ -81,8 +81,8 @@ Copyright Notice
 
 Table of Contents
 
-   1.  Terminology . . . . . . . . . . . . . . . . . . . . . . . . .   3
-   2.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
+   2.  Terminology . . . . . . . . . . . . . . . . . . . . . . . . .   3
    3.  RPKI Authorisation of Routing Data  . . . . . . . . . . . . .   4
      3.1.  Route Origin Authorization (ROA) Objects  . . . . . . . .   4
      3.2.  Autonomous System Proider Authorization (ASPA) Objects  .   4
@@ -114,15 +114,7 @@ Martin & Abley            Expires 17 April 2025                 [Page 2]
 Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
 
-1.  Terminology
-
-   The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-   "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
-   "OPTIONAL" in this document are to be interpreted as described in
-   BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
-   capitals, as shown here.
-
-2.  Introduction
+1.  Introduction
 
    Some organisations use IP addresses that have been assigned or
    allocated for their use and that are independent of any particular
@@ -162,6 +154,14 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
    routing informationi is possible.  We propose that network operators
    accept such documents, with corresponding crypytographic validation
    of associated signed objects, in place of a conventional LOA.
+
+2.  Terminology
+
+   The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+   "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
+   "OPTIONAL" in this document are to be interpreted as described in
+   BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
+   capitals, as shown here.
 
 
 
