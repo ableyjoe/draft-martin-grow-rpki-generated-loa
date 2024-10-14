@@ -277,7 +277,7 @@ mean "Letter of Authorisation" despite its original meaning.
 
 # Example RPKI LOA
 
-## Customer originates a prefix to a transit provider
+## Customer originates a prefix to provider
 
 INTRODUCTION
 
@@ -320,7 +320,7 @@ signed RPKI objects, as illustrated by the following:
   https://rpki-validator.ripe.net/ui/199.212.91.0%2F24/9327
 ~~~
 
-## Customer directs provider to originate a BYOIP prefix in Dutch {#nederlands}
+## Provider originates customer BYOIP prefix in Dutch {#nederlands}
 
 INTRODUCTIE
 
@@ -380,7 +380,7 @@ middels:
 Dirk-Jan van Helmond helped with the authors' tremendously poor
 Dutch in {{nederlands}}. Note that any residual crimes against language
 are the fault of the authors alone.
-  
+
 These fine and wonderful other people also helped with this document
 (your name goes here).
 
