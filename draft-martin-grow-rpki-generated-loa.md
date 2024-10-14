@@ -165,8 +165,6 @@ mechanisms are possible.
 
 # Constructing a LOA based on RPKI Validation
 
-## Overview
-
 A LOA constructed according to this specification is referred to
 as an RPKI Letter of Agency (RPKI LOA).
 
