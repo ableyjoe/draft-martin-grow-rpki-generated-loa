@@ -5,7 +5,7 @@
 Network Working Group                                          A. Martin
 Internet-Draft                                                  J. Abley
 Intended status: Informational                                Cloudflare
-Expires: 16 April 2025                                   13 October 2024
+Expires: 17 April 2025                                   14 October 2024
 
 
          Generating a Letter of Agency to reflect RPKI Validity
@@ -53,7 +53,7 @@ Status of This Memo
 
 
 
-Martin & Abley            Expires 16 April 2025                 [Page 1]
+Martin & Abley            Expires 17 April 2025                 [Page 1]
 
 Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
@@ -63,7 +63,7 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 16 April 2025.
+   This Internet-Draft will expire on 17 April 2025.
 
 Copyright Notice
 
@@ -99,8 +99,8 @@ Table of Contents
      8.2.  Informative References  . . . . . . . . . . . . . . . . .   8
    Appendix A.  Acknowledgments  . . . . . . . . . . . . . . . . . .   8
    Appendix B.  Letter of Agency . . . . . . . . . . . . . . . . . .   8
-   Appendix C.  Example RPKI LOA . . . . . . . . . . . . . . . . . .   8
-     C.1.  Customer originates a prefix to a transit provider  . . .   8
+   Appendix C.  Example RPKI LOA . . . . . . . . . . . . . . . . . .   9
+     C.1.  Customer originates a prefix to a transit provider  . . .   9
      C.2.  Customer directs provider to originate a BYOIP prefix in
            Dutch . . . . . . . . . . . . . . . . . . . . . . . . . .   9
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  10
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Martin & Abley            Expires 16 April 2025                 [Page 2]
+Martin & Abley            Expires 17 April 2025                 [Page 2]
 
 Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
@@ -165,7 +165,7 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
 
 
-Martin & Abley            Expires 16 April 2025                 [Page 3]
+Martin & Abley            Expires 17 April 2025                 [Page 3]
 
 Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
@@ -221,7 +221,7 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
 
 
-Martin & Abley            Expires 16 April 2025                 [Page 4]
+Martin & Abley            Expires 17 April 2025                 [Page 4]
 
 Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
@@ -277,7 +277,7 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
 
 
-Martin & Abley            Expires 16 April 2025                 [Page 5]
+Martin & Abley            Expires 17 April 2025                 [Page 5]
 
 Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
@@ -333,7 +333,7 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
 
 
-Martin & Abley            Expires 16 April 2025                 [Page 6]
+Martin & Abley            Expires 17 April 2025                 [Page 6]
 
 Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
@@ -389,7 +389,7 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
 
 
-Martin & Abley            Expires 16 April 2025                 [Page 7]
+Martin & Abley            Expires 17 April 2025                 [Page 7]
 
 Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
@@ -417,7 +417,12 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
 Appendix A.  Acknowledgments
 
-   These fine and wonderful people helped with this document.
+   Dirk-Jan van Helmond helped with the authors' tremendously poor Dutch
+   in Appendix C.2.  Note that any residual crimes against language are
+   the fault of the authors alone.
+
+   These fine and wonderful other people also helped with this document
+   (your name goes here).
 
 Appendix B.  Letter of Agency
 
@@ -434,6 +439,17 @@ Appendix B.  Letter of Agency
    Internet Service Provider.  The acronym LOA is sometimes taken to
    mean "Letter of Authorisation" despite its original meaning.
 
+
+
+
+
+
+
+Martin & Abley            Expires 17 April 2025                 [Page 8]
+
+Internet-Draft  Generating a Letter of Agency to reflect    October 2024
+
+
 Appendix C.  Example RPKI LOA
 
 C.1.  Customer originates a prefix to a transit provider
@@ -441,14 +457,6 @@ C.1.  Customer originates a prefix to a transit provider
    INTRODUCTION
 
    This is an RPKI LOA that confirms to (this document).
-
-
-
-
-Martin & Abley            Expires 16 April 2025                 [Page 8]
-
-Internet-Draft  Generating a Letter of Agency to reflect    October 2024
-
 
    PROVENANCE AND VALIDITY
 
@@ -483,28 +491,31 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
 C.2.  Customer directs provider to originate a BYOIP prefix in Dutch
 
-   INVOERING
+   INTRODUCTIE
 
    This is an RPKI LOA that confirms to (this document).
 
-   Dit is een RPKI LOA die bevestigt aan (this document).  Een deel van
-   de tekst in dit document moet in het Engels geschreven zijn.  De rest
-   van dit document is in het Nederlands geschreven en is bedoeld voor
-   een publiek dat Nederlands spreekt.
-
-   HERKOMST EN GELDIGHEID
-
-   Dit document is door Cloudflare namens een klant om 2024-10-13 15:00
-   UTC geproceerd.  Voor meer informatie over dit document kunt u
-   contact opnemen met Cloudflare via:
 
 
 
 
-Martin & Abley            Expires 16 April 2025                 [Page 9]
+
+
+Martin & Abley            Expires 17 April 2025                 [Page 9]
 
 Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
+
+   Dit is een RPKI LOA die voldoet aan (dit document).  Dit document is
+   in het Nederlands geschreven en is bedoeld voor een publiek dat
+   Nederlands spreekt.  Het is van belang dat kernzaken van dit document
+   ook in het Engels geschreven zijn.
+
+   HERKOMST EN GELDIGHEID
+
+   Dit document is in opdracht van een klant door Cloudflare
+   geproduceerd om 2024-10-13 15:00 UTC.  Voor meer informatie over dit
+   document kunt u contact opnemen met Cloudflare via:
 
      Cloudflare, Inc
      101 Townsend Street
@@ -522,17 +533,17 @@ Internet-Draft  Generating a Letter of Agency to reflect    October 2024
    confirm the details provided in this RPKI LOA.
 
    De volgende route-oorsprongen zijn geautoriseerd door de publicatie
-   van RPKI-ondertekende ROA en/of ASPA-objecten.  Vertrouwende partijen
+   van RPKI-ondertekende ROA en/of ASPA-objecten.  Afhankelijke partijen
    moeten hun eigen validatie van deze objecten uitvoeren om de details
    in deze RPKI LOA te bevestigen.
 
-     VOORVOEGSEL             OORSPRONG AS
+     PREFIX                  OORSPRONG AS
      199.212.92.0/24         13335
      199.212.93.0/24         13335
 
-   Route-oorsprongautorisatie kan worden geverifieerd door te verwijzen
-   naar gepubliceerde ondertekende RPKI-objecten, zoals geïllustreerd
-   door het volgende:
+   Route-oorsprong autorisatie kan worden geverifieerd middels
+   verwijzing naar gepubliceerde ondertekende RPKI-objecten, zoals
+   geïllustreerd middels:
 
      https://rpki-validator.ripe.net/ui/199.212.92.0%2F24/13335
      https://rpki-validator.ripe.net/ui/199.212.93.0%2F24/13335
@@ -542,6 +553,13 @@ Authors' Addresses
    Algin Martin
    Cloudflare
    Email: algin@cloudflare.com
+
+
+
+
+Martin & Abley            Expires 17 April 2025                [Page 10]
+
+Internet-Draft  Generating a Letter of Agency to reflect    October 2024
 
 
    Joe Abley
@@ -557,4 +575,42 @@ Authors' Addresses
 
 
 
-Martin & Abley            Expires 16 April 2025                [Page 10]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Martin & Abley            Expires 17 April 2025                [Page 11]
