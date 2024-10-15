@@ -367,9 +367,11 @@ middels:
 # Acknowledgments
 {:numbered="false"}
 
-Dirk-Jan van Helmond helped with the authors' tremendously poor
-Dutch in {{nederlands}}. Note that any residual crimes against language
-are the fault of the authors alone.
+Dirk-Jan van Helmond tried valiantly to repair the authors'
+tremendously poor Dutch in {{nederlands}}. Any residual crimes
+against language are the fault of the authors alone.  Lucas Pardue's
+stylistic recommendations were all implemented with the result that
+the document is now much more palatable to Lucas Pardue.
 
 These fine and wonderful other people also helped with this document
 (your name goes here).
