@@ -277,6 +277,7 @@ mean "Letter of Authorisation" despite its original meaning.
 
 ## Customer originates a prefix to provider
 
+~~~
 INTRODUCTION
 
 This is an RPKI LOA that confirms to (this document).
@@ -287,13 +288,11 @@ This document was produced by Cloudflare on behalf of a customer at
 2024-10-13 15:00 UTC. For more information about this document, please
 contact Cloudflare as follows:
 
-~~~
   Cloudflare, Inc
   101 Townsend Street
   San Francisco
   CA 94107
   USA
-~~~
 
   rpki@cloudflare.com
 
@@ -304,22 +303,20 @@ publication of RPKI-signed ROA and/or ASPA objects. Relying parties
 should perform their own validation of these objects in order to
 confirm the details provided in this RPKI LOA.
 
-~~~
   PREFIX                  ORIGIN AS       PROVIDER AS
   199.212.90.0/24         9327            13335
   199.212.91.0/24         9327            13335
-~~~
 
 Route origin authorisation can be verified by reference to published
 signed RPKI objects, as illustrated by the following:
 
-~~~
   https://rpki-validator.ripe.net/ui/199.212.90.0%2F24/9327
   https://rpki-validator.ripe.net/ui/199.212.91.0%2F24/9327
 ~~~
 
 ## Provider originates customer BYOIP prefix in Dutch {#nederlands}
 
+~~~
 INTRODUCTIE
 
 This is an RPKI LOA that confirms to (this document).
@@ -335,7 +332,6 @@ Dit document is in opdracht van een klant door Cloudflare geproduceerd
 om 2024-10-13 15:00 UTC. Voor meer informatie over dit document
 kunt u contact opnemen met Cloudflare via:
 
-~~~
   Cloudflare, Inc
   101 Townsend Street
   San Francisco
@@ -343,7 +339,6 @@ kunt u contact opnemen met Cloudflare via:
   USA
 
   rpki@cloudflare.com
-~~~
 
 OORSPRONG VAN ROUTES
 
@@ -357,17 +352,14 @@ van RPKI-ondertekende ROA en/of ASPA-objecten. Afhankelijke partijen
 moeten hun eigen validatie van deze objecten uitvoeren om de details
 in deze RPKI LOA te bevestigen.
 
-~~~
   PREFIX                  OORSPRONG AS
   199.212.92.0/24         13335
   199.212.93.0/24         13335
-~~~
 
 Route-oorsprong autorisatie kan worden geverifieerd middels verwijzing
 naar gepubliceerde ondertekende RPKI-objecten, zoals geïllustreerd
 middels:
 
-~~~
   https://rpki-validator.ripe.net/ui/199.212.92.0%2F24/13335
   https://rpki-validator.ripe.net/ui/199.212.93.0%2F24/13335
 ~~~
