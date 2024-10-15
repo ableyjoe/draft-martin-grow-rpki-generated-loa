@@ -5,7 +5,7 @@
 Network Working Group                                          A. Martin
 Internet-Draft                                                  J. Abley
 Intended status: Informational                                Cloudflare
-Expires: 17 April 2025                                   14 October 2024
+Expires: 18 April 2025                                   15 October 2024
 
 
          Generating a Letter of Agency to reflect RPKI Validity
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 17 April 2025.
+   This Internet-Draft will expire on 18 April 2025.
 
 Copyright Notice
 
@@ -369,88 +369,88 @@ Appendix B.  Example RPKI LOA
 
 B.1.  Customer originates a prefix to provider
 
-   INTRODUCTION
+  INTRODUCTION
 
-   This is an RPKI LOA that confirms to (this document).
+  This is an RPKI LOA that confirms to (this document).
 
-   PROVENANCE AND VALIDITY
+  PROVENANCE AND VALIDITY
 
-   This document was produced by Cloudflare on behalf of a customer at
-   2024-10-13 15:00 UTC.  For more information about this document,
-   please contact Cloudflare as follows:
+  This document was produced by Cloudflare on behalf of a customer at
+  2024-10-13 15:00 UTC. For more information about this document, please
+  contact Cloudflare as follows:
 
-     Cloudflare, Inc
-     101 Townsend Street
-     San Francisco
-     CA 94107
-     USA
+    Cloudflare, Inc
+    101 Townsend Street
+    San Francisco
+    CA 94107
+    USA
 
-   rpki@cloudflare.com
+    rpki@cloudflare.com
 
-   ROUTE ORIGIN AND SERVICE PROVIDER AUTHORISATION
+  ROUTE ORIGIN AND SERVICE PROVIDER AUTHORISATION
 
-   The following route originations have been authorised by the
-   publication of RPKI-signed ROA and/or ASPA objects.  Relying parties
-   should perform their own validation of these objects in order to
-   confirm the details provided in this RPKI LOA.
+  The following route originations have been authorised by the
+  publication of RPKI-signed ROA and/or ASPA objects. Relying parties
+  should perform their own validation of these objects in order to
+  confirm the details provided in this RPKI LOA.
 
-     PREFIX                  ORIGIN AS       PROVIDER AS
-     199.212.90.0/24         9327            13335
-     199.212.91.0/24         9327            13335
+    PREFIX                  ORIGIN AS       PROVIDER AS
+    199.212.90.0/24         9327            13335
+    199.212.91.0/24         9327            13335
 
-   Route origin authorisation can be verified by reference to published
-   signed RPKI objects, as illustrated by the following:
+  Route origin authorisation can be verified by reference to published
+  signed RPKI objects, as illustrated by the following:
 
-     https://rpki-validator.ripe.net/ui/199.212.90.0%2F24/9327
-     https://rpki-validator.ripe.net/ui/199.212.91.0%2F24/9327
+    https://rpki-validator.ripe.net/ui/199.212.90.0%2F24/9327
+    https://rpki-validator.ripe.net/ui/199.212.91.0%2F24/9327
 
 B.2.  Provider originates customer BYOIP prefix in Dutch
 
-   INTRODUCTIE
+  INTRODUCTIE
 
-   This is an RPKI LOA that confirms to (this document).
+  This is an RPKI LOA that confirms to (this document).
 
-   Dit is een RPKI LOA die voldoet aan (dit document).  Dit document is
-   in het Nederlands geschreven en is bedoeld voor een publiek dat
-   Nederlands spreekt.  Het is van belang dat kernzaken van dit document
-   ook in het Engels geschreven zijn.
+  Dit is een RPKI LOA die voldoet aan (dit document). Dit document
+  is in het Nederlands geschreven en is bedoeld voor een publiek dat
+  Nederlands spreekt.  Het is van belang dat kernzaken van dit document
+  ook in het Engels geschreven zijn.
 
-   HERKOMST EN GELDIGHEID
+  HERKOMST EN GELDIGHEID
 
-   Dit document is in opdracht van een klant door Cloudflare
-   geproduceerd om 2024-10-13 15:00 UTC.  Voor meer informatie over dit
-   document kunt u contact opnemen met Cloudflare via:
+  Dit document is in opdracht van een klant door Cloudflare geproduceerd
+  om 2024-10-13 15:00 UTC. Voor meer informatie over dit document
+  kunt u contact opnemen met Cloudflare via:
 
-     Cloudflare, Inc
-     101 Townsend Street
-     San Francisco
-     CA 94107
-     USA
+    Cloudflare, Inc
+    101 Townsend Street
+    San Francisco
+    CA 94107
+    USA
 
-     rpki@cloudflare.com
+    rpki@cloudflare.com
 
-   OORSPRONG VAN ROUTES
+  OORSPRONG VAN ROUTES
 
-   The following route originations have been authorised by the
-   publication of RPKI-signed ROA and/or ASPA objects.  Relying parties
-   should perform their own validation of these objects in order to
-   confirm the details provided in this RPKI LOA.
+  The following route originations have been authorised by the
+  publication of RPKI-signed ROA and/or ASPA objects. Relying parties
+  should perform their own validation of these objects in order to
+  confirm the details provided in this RPKI LOA.
 
-   De volgende route-oorsprongen zijn geautoriseerd door de publicatie
-   van RPKI-ondertekende ROA en/of ASPA-objecten.  Afhankelijke partijen
-   moeten hun eigen validatie van deze objecten uitvoeren om de details
-   in deze RPKI LOA te bevestigen.
+  De volgende route-oorsprongen zijn geautoriseerd door de publicatie
+  van RPKI-ondertekende ROA en/of ASPA-objecten. Afhankelijke partijen
+  moeten hun eigen validatie van deze objecten uitvoeren om de details
+  in deze RPKI LOA te bevestigen.
 
-     PREFIX                  OORSPRONG AS
-     199.212.92.0/24         13335
-     199.212.93.0/24         13335
+    PREFIX                  OORSPRONG AS
+    199.212.92.0/24         13335
+    199.212.93.0/24         13335
 
-   Route-oorsprong autorisatie kan worden geverifieerd middels
-   verwijzing naar gepubliceerde ondertekende RPKI-objecten, zoals
-   geïllustreerd middels:
+  Route-oorsprong autorisatie kan worden geverifieerd middels verwijzing
+  naar gepubliceerde ondertekende RPKI-objecten, zoals geïllustreerd
+  middels:
 
-     https://rpki-validator.ripe.net/ui/199.212.92.0%2F24/13335
-     https://rpki-validator.ripe.net/ui/199.212.93.0%2F24/13335
+    https://rpki-validator.ripe.net/ui/199.212.92.0%2F24/13335
+    https://rpki-validator.ripe.net/ui/199.212.93.0%2F24/13335
 
 Acknowledgments
 
