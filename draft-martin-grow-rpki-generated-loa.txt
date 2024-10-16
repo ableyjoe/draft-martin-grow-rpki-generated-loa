@@ -5,7 +5,7 @@
 Network Working Group                                          A. Martin
 Internet-Draft                                                  J. Abley
 Intended status: Informational                                Cloudflare
-Expires: 18 April 2025                                   15 October 2024
+Expires: 19 April 2025                                   16 October 2024
 
 
          Generating a Letter of Agency to reflect RPKI Validity
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 April 2025.
+   This Internet-Draft will expire on 19 April 2025.
 
 Copyright Notice
 
@@ -371,7 +371,7 @@ B.1.  Customer originates a prefix to provider
 
   INTRODUCTION
 
-  This is an RPKI LOA that confirms to (this document).
+  This is an RPKI LOA that conforms to (this document).
 
   PROVENANCE AND VALIDITY
 
@@ -408,7 +408,7 @@ B.2.  Provider originates customer BYOIP prefix in Dutch
 
   INTRODUCTIE
 
-  This is an RPKI LOA that confirms to (this document).
+  This is an RPKI LOA that conforms to (this document).
 
   Dit is een RPKI LOA die voldoet aan (dit document). Dit document
   is in het Nederlands geschreven en is bedoeld voor een publiek dat
