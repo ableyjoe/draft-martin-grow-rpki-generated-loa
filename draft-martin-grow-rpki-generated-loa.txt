@@ -4,7 +4,7 @@
 
 Network Working Group                                          A. Martin
 Internet-Draft                                                  J. Abley
-Intended status: Informational                                Cloudflare
+Intended status: Best Current Practice                        Cloudflare
 Expires: 19 April 2025                                   16 October 2024
 
 
