@@ -1346,9 +1346,9 @@ to their account does not normally authorise the use of those
 prefixes by other customers. In order to ensure that a particular
 BYOIP prefix is attached to an account that is authorised to use
 it, a provider requires further authorisation from the customer.<a href="#section-4-2" class="pilcrow">¶</a></p>
-<p id="section-4-3"><span>[<a href="#RFC9323" class="cite xref">RFC9323</a>]</span> provides a profile for RPKI Signed Checklists (RSCs) which
-can be used by a resource holder as an attestation.<a href="#section-4-3" class="pilcrow">¶</a></p>
-<p id="section-4-4">In the case of the examples in {authorisation}, the customer
+<p id="section-4-3"><span>[<a href="#RFC9323" class="cite xref">RFC9323</a>]</span> provides a profile for RPKI Signed Checklists (RSCs)
+which can be used by a resource holder as an attestation.<a href="#section-4-3" class="pilcrow">¶</a></p>
+<p id="section-4-4">In the case of the examples in <a href="#authorisation" class="auto internal xref">Section 3</a>, the customer
 responsible for BYOIP prefix A might sign an attestation that
 authorises the use of that prefix with their account and make that
 attestation available to the provider. The attestion might be
@@ -1358,6 +1358,10 @@ sign a checklist authorising using the ROA associated with prefix B.<a href="#se
 <p id="section-4-5">Authorisation of particular BYOIP prefixes to be attached to
 particular provider accounts is necessarily provider-specific. Other
 mechanisms are possible.<a href="#section-4-5" class="pilcrow">¶</a></p>
+<p id="section-4-6">From the perspective of an adjacent network operator, the details
+of how a service provider manages appropriate safeguards relating
+to BYOIP are not important, and those details are not generally
+considered necessary to explain in a LOA.<a href="#section-4-6" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="constructing-a-loa-based-on-rpki-validation">
