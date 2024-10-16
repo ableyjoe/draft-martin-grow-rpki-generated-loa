@@ -148,10 +148,10 @@ prefixes by other customers. In order to ensure that a particular
 BYOIP prefix is attached to an account that is authorised to use
 it, a provider requires further authorisation from the customer.
 
-{{?RFC9323}} provides a profile for RPKI Signed Checklists (RSCs) which
-can be used by a resource holder as an attestation.
+{{?RFC9323}} provides a profile for RPKI Signed Checklists (RSCs)
+which can be used by a resource holder as an attestation.
 
-In the case of the examples in {authorisation}, the customer
+In the case of the examples in {{authorisation}}, the customer
 responsible for BYOIP prefix A might sign an attestation that
 authorises the use of that prefix with their account and make that
 attestation available to the provider. The attestion might be
@@ -162,6 +162,11 @@ sign a checklist authorising using the ROA associated with prefix B.
 Authorisation of particular BYOIP prefixes to be attached to
 particular provider accounts is necessarily provider-specific. Other
 mechanisms are possible.
+
+From the perspective of an adjacent network operator, the details
+of how a service provider manages appropriate safeguards relating
+to BYOIP are not important, and those details are not generally
+considered necessary to explain in a LOA.
 
 # Constructing a LOA based on RPKI Validation
 
