@@ -280,7 +280,7 @@ mean "Letter of Authorisation" despite its original meaning.
 ~~~
 INTRODUCTION
 
-This is an RPKI LOA that confirms to (this document).
+This is an RPKI LOA that conforms to (this document).
 
 PROVENANCE AND VALIDITY
 
@@ -319,7 +319,7 @@ signed RPKI objects, as illustrated by the following:
 ~~~
 INTRODUCTIE
 
-This is an RPKI LOA that confirms to (this document).
+This is an RPKI LOA that conforms to (this document).
 
 Dit is een RPKI LOA die voldoet aan (dit document). Dit document
 is in het Nederlands geschreven en is bedoeld voor een publiek dat
