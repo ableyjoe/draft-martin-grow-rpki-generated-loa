@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-10-15T01:46:30.905517+00:00",
+  "timestamp": "2024-10-17T01:45:18.908546+00:00",
   "repo": "ableyjoe/draft-martin-grow-rpki-generated-loa",
   "labels": [
     {
@@ -104,6 +104,48 @@
       "mergeCommit": null,
       "comments": [],
       "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOM81I4M5-vUai",
+      "title": "Update draft-martin-grow-rpki-generated-loa.md",
+      "url": "https://github.com/ableyjoe/draft-martin-grow-rpki-generated-loa/pull/3",
+      "state": "MERGED",
+      "author": "davidbelson",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "confirms >> conforms",
+      "createdAt": "2024-10-15T22:12:12Z",
+      "updatedAt": "2024-10-16T09:33:24Z",
+      "baseRepository": "ableyjoe/draft-martin-grow-rpki-generated-loa",
+      "baseRefName": "main",
+      "baseRefOid": "3ebde1109156622e4a06a09863a969a3749347e9",
+      "headRepository": "davidbelson/draft-martin-grow-rpki-generated-loa",
+      "headRefName": "patch-1",
+      "headRefOid": "6bb4e0af8f435c34a262f359ed766c3d690d6f4e",
+      "closedAt": "2024-10-16T09:33:24Z",
+      "mergedAt": "2024-10-16T09:33:24Z",
+      "mergedBy": "ableyjoe",
+      "mergeCommit": {
+        "oid": "a8627b2374a4d30bec84d98cfb36623f3c476805"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOM81I4M6NXyje",
+          "commit": {
+            "abbreviatedOid": "6bb4e0a"
+          },
+          "author": "ableyjoe",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "Thanks!",
+          "createdAt": "2024-10-16T09:33:13Z",
+          "updatedAt": "2024-10-16T09:33:13Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
